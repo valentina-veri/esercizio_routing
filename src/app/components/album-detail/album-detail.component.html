@@ -1,0 +1,7 @@
+
+<div class="card" style="width: 18rem;" *ngFor="let f of foto">
+    <a [href]="f.url" target="_blank"><img [src]="f.thumbnailUrl" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <p class="card-text">{{f.title}}</p>
+    </div>
+  </div>
